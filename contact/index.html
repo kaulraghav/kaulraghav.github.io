@@ -1,0 +1,14 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Get in touch."><title>Contact — Raghav Kaul</title><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="sitemap" href="/sitemap-index.xml"><!-- Prevent dark-mode flash by reading localStorage before first paint --><script>
+      (function () {
+        const saved = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.dataset.theme = saved ?? (prefersDark ? 'dark' : 'light');
+      })();
+    </script><link rel="stylesheet" href="/_astro/BaseLayout.GJsoHuS1.css"></head> <body> <header class="site-header"> <div class="site-header-inner"> <a href="/" class="site-title">Raghav Kaul</a> <nav> <ul class="site-nav"> <li><a href="/blog/">Blog</a></li><li><a href="/music/">Music</a></li><li><a href="/gallery/">Gallery</a></li><li><a href="/contact/">Contact</a></li> <li> <button id="theme-toggle" aria-label="Toggle dark mode" class="theme-toggle"> <span id="theme-icon"></span> </button> </li> </ul> </nav> </div> </header> <main>  <div class="container"> <h1 class="page-heading">Contact</h1> <p class="page-subheading">Get in touch.</p> <div class="contact-body"> <p>
+The best way to reach me is by email:
+<a href="mailto:kaulraghav@gmail.com">kaulraghav@gmail.com</a> </p> <p>
+You can also find me on
+<a href="https://github.com/kaulraghav" target="_blank" rel="noopener">GitHub</a>
+and
+<a href="https://www.linkedin.com/in/raghavkaul/" target="_blank" rel="noopener">LinkedIn</a>.
+</p> <hr> <p> <strong>Resume</strong><br> <a href="/resume.pdf" target="_blank">Download PDF →</a> </p> </div> </div>  </main> <footer class="site-footer"> <p>© 2026 Raghav Kaul</p> </footer> <script type="module">const d=document.getElementById("theme-toggle"),m=document.getElementById("theme-icon"),e=document.documentElement;function n(t){e.dataset.theme=t,m.textContent=t==="dark"?"☀":"☽",localStorage.setItem("theme",t)}n(e.dataset.theme??"light");d.addEventListener("click",()=>{n(e.dataset.theme==="dark"?"light":"dark")});</script> </body> </html>
